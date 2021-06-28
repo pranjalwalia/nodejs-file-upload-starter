@@ -5,7 +5,8 @@
   "main": "/app/bin/www",
   "scripts": {
     "dev": "nodemon",
-    "start": "node ./app/bin/www"
+    "start": "node ./app/bin/www",
+    "clean": "rm -rf public/uploads"
   },
   "repository": {
     "type": "git",

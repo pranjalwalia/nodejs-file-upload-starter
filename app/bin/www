@@ -1,8 +1,10 @@
-const { app, connectDB } = require('../server')
+const app = require('../server')
+const db = require('../utils/dbConnection')
+
 const PORT = parseInt(process.env.PORT) || 5000;
 
-connectDB()
+db()
 
 app.listen(PORT, () => {
-  console.log(`connected to port ${PORT}`);
+  console.log(`🚀 Server started on port ${PORT}`);
 });
