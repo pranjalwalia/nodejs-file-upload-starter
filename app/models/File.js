@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Meta Data Associated with a file stored in mongo
 const fileSchema = new Schema(
   {
     filename: { type: String, required: true },

@@ -1,3 +1,6 @@
+// import all top level modules here 
+// entry level binary for all network connections
+
 const app = require('../server')
 const db = require('../utils/dbConnection')
 

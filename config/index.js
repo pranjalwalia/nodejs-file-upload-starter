@@ -1,3 +1,7 @@
+/**
+ * Load Environment vars and export all config variables from this module
+ * */
+
 const path = require("path");
 
 require("dotenv").config({ path: path.resolve(__dirname, "../.env") });

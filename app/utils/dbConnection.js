@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const { MONGO_URL } = require("../../config");
 
+// mongodb connection helpers
 const connectDB = () =>
   mongoose
     .connect(MONGO_URL, {
